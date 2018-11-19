@@ -1,3 +1,4 @@
+# branch 'calc_les_main_subtract' is aangemaakt
 # Program make a simple calculator that can add, subtract, multiply and divide using functions
 
 # This function adds two numbers
@@ -18,7 +19,7 @@ def divide(x, y):
 
 print("Select operation.")
 print("1.Add")
-# print("2.Subtract")   <- team 1 gaaat aan deze werken
+# print("2.Subtract")   <- team 1 gaat aan deze werken
 # print("3.Multiply")   <- team 2 gaat aan deze werken
 print("4.Divide")
 
