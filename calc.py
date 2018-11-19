@@ -19,7 +19,7 @@ def divide(x, y):
 
 print("Select operation.")
 print("1.Add")
-# print("2.Subtract")   <- team 1 gaat aan deze werken
+print("2.Subtract")   #<- team 1 gaat aan deze werken
 # print("3.Multiply")   <- team 2 gaat aan deze werken
 print("4.Divide")
 
@@ -32,8 +32,8 @@ num2 = int(input("Enter second number: "))
 if choice == '1':
    print(num1,"+",num2,"=", add(num1,num2))
 
-# elif choice == '2':
-#    print(num1,"-",num2,"=", subtract(num1,num2))
+elif choice == '2':
+   print(num1,"-",num2,"=", subtract(num1,num2))
 
 # elif choice == '3':
 #    print(num1,"*",num2,"=", multiply(num1,num2))
