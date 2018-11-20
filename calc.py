@@ -20,6 +20,7 @@ print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
+print("5.Close")
 
 # Take input from the user
 choice = input("Enter choice(1/2/3/4): ")
@@ -34,6 +35,8 @@ elif choice == '3':
    print(num1, "*", num2, "=", multiply(num1, num2))
 elif choice == '4':
    print(num1, "/", num2, "=", divide(num1, num2))
+elif choice == '5':
+    print("Mag niet")
 else:
    print("Invalid input")
    #testing2
