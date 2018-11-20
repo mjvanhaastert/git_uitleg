@@ -36,7 +36,7 @@ elif choice == '3':
 elif choice == '4':
    print(num1, "/", num2, "=", divide(num1, num2))
 elif choice == '5':
-    print("Mag niet")
+    print("Mag niet!")
 else:
    print("Invalid input")
    #testing2
