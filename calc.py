@@ -19,7 +19,7 @@ def divide(x, y):
 print("Select operation.")
 print("1.Add")
 # print("2.Subtract")   <- team 1 gaaat aan deze werken
-# print("3.Multiply")   <- team 2 gaat aan deze werken
+print("3.Multiply")   # <- team 2 gaat aan deze werken
 print("4.Divide")
 
 # Take input from the user
@@ -34,8 +34,8 @@ if choice == '1':
 # elif choice == '2':
 #    print(num1,"-",num2,"=", subtract(num1,num2))
 
-# elif choice == '3':
-#    print(num1,"*",num2,"=", multiply(num1,num2))
+elif choice == '3':
+   print(num1,"*",num2,"=", multiply(num1,num2))
 
 elif choice == '4':
    print(num1,"/",num2,"=", divide(num1,num2))
