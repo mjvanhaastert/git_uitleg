@@ -10,7 +10,10 @@ def subtract(x, y):
 
 # This function multiplies two numbers
 def multiply(x, y):
-   return x * y
+   sum = 0
+   for _ in range(0,y):
+      sum += x
+   return sum
 
 # This function divides two numbers
 def divide(x, y):
